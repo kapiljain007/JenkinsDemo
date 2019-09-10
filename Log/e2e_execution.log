@@ -1,0 +1,29 @@
+[2019-09-09T11:48:25.539] [INFO] default - Verification : Navigated to http://innoattendance.innovify.com/attandance/backend/web/index.php/site/login
+[2019-09-09T11:48:25.546] [INFO] default - ---------------------------------Pre-Condition------------------------------------
+[2019-09-09T11:48:25.554] [INFO] default - Step : Enter the Username: kapil.j
+[2019-09-09T11:48:25.641] [INFO] default - Verification : Entered "kapil.j" as the Username
+[2019-09-09T11:48:25.642] [INFO] default - Step : Enter the Password: 123456
+[2019-09-09T11:48:25.723] [INFO] default - Verification : Entered 123456 as the Password
+[2019-09-09T11:48:25.724] [INFO] default - Step : Click on Sign-in button
+[2019-09-09T11:48:25.809] [INFO] default - Verification : Click action was executed on Sign-in Button
+[2019-09-09T11:48:34.439] [INFO] default - ---------------------------------Post-Condition------------------------------------
+[2019-09-09T11:48:34.675] [INFO] default - Step : Navigate to the http://innoattendance.innovify.com/attandance/backend/web/index.php/site/login
+[2019-09-09T11:48:34.752] [INFO] default - Verification : Navigated to http://innoattendance.innovify.com/attandance/backend/web/index.php/site/login
+[2019-09-09T11:48:35.154] [INFO] default - ---------------------------------Pre-Condition------------------------------------
+[2019-09-09T11:48:35.155] [INFO] default - Step : Enter the Username: milan.m
+[2019-09-09T11:48:35.241] [INFO] default - Verification : Entered "milan.m" as the Username
+[2019-09-09T11:48:35.241] [INFO] default - Step : Enter the Password: milan1234
+[2019-09-09T11:48:35.315] [INFO] default - Verification : Entered milan1234 as the Password
+[2019-09-09T11:48:35.316] [INFO] default - Step : Click on Sign-in button
+[2019-09-09T11:48:35.370] [INFO] default - Verification : Click action was executed on Sign-in Button
+[2019-09-09T11:48:44.005] [INFO] default - ---------------------------------Post-Condition------------------------------------
+[2019-09-09T11:48:44.206] [INFO] default - Step : Navigate to the http://innoattendance.innovify.com/attandance/backend/web/index.php/site/login
+[2019-09-09T11:48:44.290] [INFO] default - Verification : Navigated to http://innoattendance.innovify.com/attandance/backend/web/index.php/site/login
+[2019-09-09T11:48:44.291] [INFO] default - ---------------------------------Pre-Condition------------------------------------
+[2019-09-09T11:48:44.291] [INFO] default - Step : Enter the Username: jaimin.p
+[2019-09-09T11:48:44.369] [INFO] default - Verification : Entered "jaimin.p" as the Username
+[2019-09-09T11:48:44.370] [INFO] default - Step : Enter the Password: jaimin1234
+[2019-09-09T11:48:44.441] [INFO] default - Verification : Entered jaimin1234 as the Password
+[2019-09-09T11:48:44.441] [INFO] default - Step : Click on Sign-in button
+[2019-09-09T11:48:44.500] [INFO] default - Verification : Click action was executed on Sign-in Button
+[2019-09-09T11:48:53.135] [INFO] default - ---------------------------------Post-Condition------------------------------------

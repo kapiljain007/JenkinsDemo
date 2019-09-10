@@ -1,0 +1,32 @@
+[
+{
+"url" : "http://staging.navigator.parkstreet.com/router.php",
+"url1" : "http://staging.navigator.parkstreet.com/router.php/app#!/customer-entry",
+"username" : "jbedoya",
+"password" : "Park2003Street",
+"client" : "247 Distribution, LLC",
+"client1" : "1000D Spirits",
+"client2" : "6 Degree Tequila",
+"client_title":"Choose Clients",
+
+"State":"kentucky",
+"Customer Type":"Charity",
+"Status":"Rejected",
+"Search":"1 Teriyaki - CA",
+"Customer Name":"Customer 1342",
+"License State":" Kentucky",
+"Customer License":"LIC13244",
+"phone number":"9874650",
+"Email":"mail@mail.com",
+"Shipping Address One":"1A Avenue",
+"Shipping Address Two":"wallstreet",
+"Shipping City":"CA",
+"Shipping State":"Kansas",
+"Shipping Postal Code":"456321",
+"Billing Address One":"2A Avenue",
+"Billing Address Two":"Mountain View",
+"Billing City":"CA",
+"Billing State":"Kansas",
+"Billing Postal Code":"456321"
+}
+]
