@@ -38,9 +38,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "protractor Config.js"
+    "test": "protractor ConfigNew.js"
   },
   "author": "Innovify",
-  "license": "ISC"
-  
+  "license": "ISC" 
 }
