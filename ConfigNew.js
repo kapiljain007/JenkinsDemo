@@ -187,7 +187,7 @@ transport.sendMail(mailOptions, function (error, info) {
 
 	  
   suites: {
-    Smoke : ['C:/Testing/Automation_Generic_Framework/Automation_Generic_Framework/e2e/Specs/AddAttendanceSpec/AddAttendanceSpec.js'],
+    Smoke : ['C:/Testing/automation/JenkinsDemo/e2e/Specs/AddAttendanceSpec/AddAttendanceSpec.js'],
   },
 
   // Testing URL
