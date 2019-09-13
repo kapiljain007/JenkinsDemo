@@ -38,9 +38,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "protractor ConfigNew.js",
-    "pretest": "rm -rf allure-report",
-    "posttest": "allure generate allure-results --clean -o allure-report || true"
+    "test": "protractor ConfigNew.js"
   },
   "author": "Innovify",
   "license": "ISC"
