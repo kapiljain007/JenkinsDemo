@@ -91,6 +91,7 @@ exports.config = {
 	  jasmine.getEnv().addReporter(new HtmlReporter({
 		baseDirectory: 'Interactive Report/screenshots', 
 		takeScreenShotsOnlyForFailedSpecs: true
+		, preserveDirectory: false
 		 }).getJasmine2Reporter());
 		 
 	
@@ -184,7 +185,7 @@ exports.config = {
 // 		response.send(info);
 //     }
 // });
-			
+
 	  },
 
 	  

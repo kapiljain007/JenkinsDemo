@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1568367521954' stop='1568367547611'>
+    <name>To add attendance.</name>
+    <title>To add attendance.</title>
+    <test-cases>
+        <test-case start='1568367522029' status='failed' stop='1568367547608'>
+            <name>To Add attendance in Innovify ParkStreet.</name>
+            <title>To Add attendance in Innovify ParkStreet.</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0701b79d-9fa5-4a7a-8198-401c0f1d77c3-attachment.png' type='image/png' size='26476'/>
+            </attachments>
+            <failure>
+                <message>Failed: By(css selector, .fa.fa-sticky-note)Test
+                Wait timed out after 25001ms</message>
+                <stack-trace>TimeoutError: By(css selector, .fa.fa-sticky-note)Test
+                Wait timed out after 25001ms
+                    at C:\Testing\automation\JenkinsDemo\node_modules\selenium-webdriver\lib\promise.js:2201:17
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Testing\automation\JenkinsDemo\e2e\Specs\AddAttendanceSpec\AddAttendanceSpec.js:23:5)
+                    at addSpecsToSuite (C:\Testing\automation\JenkinsDemo\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Testing\automation\JenkinsDemo\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Testing\automation\JenkinsDemo\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at C:\Testing\automation\JenkinsDemo\e2e\Specs\AddAttendanceSpec\AddAttendanceSpec.js:6:5
+                    at Array.forEach (&lt;anonymous>)
+                    at Object.&lt;anonymous> (C:\Testing\automation\JenkinsDemo\e2e\Specs\AddAttendanceSpec\AddAttendanceSpec.js:5:10)
+                    at Module._compile (internal/modules/cjs/loader.js:688:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

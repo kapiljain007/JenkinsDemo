@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1568358691455' stop='1568358701014'>
+    <name>To add attendance.</name>
+    <title>To add attendance.</title>
+    <test-cases>
+        <test-case start='1568358691519' status='passed' stop='1568358701008'>
+            <name>To Add attendance in Innovify ParkStreet.</name>
+            <title>To Add attendance in Innovify ParkStreet.</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='096b231d-45c7-40ae-a5f1-092aa7286340-attachment.png' type='image/png' size='24121'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
