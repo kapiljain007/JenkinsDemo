@@ -1,4 +1,3 @@
-
 var SpecReporter = require("jasmine-spec-reporter").SpecReporter;
 var HTMLReport = require('protractor-html-reporter');
 var fs = require('fs-extra');
@@ -72,9 +71,12 @@ exports.config = {
 	}
 
         jasmine.getEnv().addReporter(new Jasmine2HtmlReporter({
-		   savePath: './Jasmine Reports',
-		   takeScreenshots: true,
-		   takeScreenshotsOnlyOnFailures: true
+			savePath: './Jasmine Reports',
+			takeScreenshots: true,
+			takeScreenshotsOnlyOnFailures: true,
+			// consolidate: false,
+			//    consolidateAll: false,
+			   showPassed: true
 		}));
 
 	    jasmine.getEnv().addReporter(new SpecReporter({
@@ -87,8 +89,8 @@ exports.config = {
 
 	  
 	  jasmine.getEnv().addReporter(new HtmlReporter({
-		baseDirectory: 'Interactive Report/screenshots'
-		, takeScreenShotsOnlyForFailedSpecs: true
+		baseDirectory: 'Interactive Report/screenshots', 
+		takeScreenShotsOnlyForFailedSpecs: true
 		 }).getJasmine2Reporter());
 		 
 	
