@@ -6,6 +6,7 @@ var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
 var log4js = require('log4js');
 var rimraf = require('rimraf');
 var HtmlReporter = require('protractor-beautiful-reporter');
+var AllureReporter = require('jasmine-allure-reporter');
 
 exports.config = {
 
@@ -81,12 +82,25 @@ exports.config = {
           displayFailedSpec: true,
           displaySuiteNumber: true,
           displaySpecDuration: true,
-	    }));
+		}));
+		
+
 	  
 	  jasmine.getEnv().addReporter(new HtmlReporter({
 		baseDirectory: 'Interactive Report/screenshots'
 		, takeScreenShotsOnlyForFailedSpecs: true
-	 	}).getJasmine2Reporter());
+		 }).getJasmine2Reporter());
+		 
+	
+    jasmine.getEnv().addReporter(new AllureReporter());
+    jasmine.getEnv().afterEach(function(done){
+      browser.takeScreenshot().then(function (png) {
+        allure.createAttachment('Screenshot', function () {
+          return new Buffer(png, 'base64')
+        }, 'image/png')();
+        done();
+      })
+    });
 
 		  var jasmineReporters = require('jasmine-reporters');
 		   jasmine.getEnv().addReporter(new jasmineReporters.JUnitXmlReporter({
