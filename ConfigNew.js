@@ -76,7 +76,7 @@ exports.config = {
 			takeScreenshotsOnlyOnFailures: true,
 			// consolidate: false,
 			//    consolidateAll: false,
-			   showPassed: true
+			   showPassed: false
 		}));
 
 	    jasmine.getEnv().addReporter(new SpecReporter({
